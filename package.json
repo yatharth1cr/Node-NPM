@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatharth1cr/Node-NPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yatharth1cr/Node-NPM/issues"
+  },
+  "homepage": "https://github.com/yatharth1cr/Node-NPM#readme",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
