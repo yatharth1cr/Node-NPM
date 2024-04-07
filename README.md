@@ -36,6 +36,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 This project is licensed under the [ISC License](LICENSE).
 
----
+--- 
 
 Feel free to customize the content according to your preferences and add any additional information you think would be helpful for users who visit your repository.
