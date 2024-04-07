@@ -42,3 +42,27 @@ console.log(j); //06
 // subtracts 7 years to current date
 let k = moment().subtract(7, "years").format("DD");
 console.log(k); //06
+
+// Find the difference between the following 2 dates:
+// 1.
+let date1 = moment("2014-11-11");
+let date2 = moment("2015-09-11");
+console.log(date1.diff(date2, "days"));
+
+// 2.
+let date3 = moment("2014-11-27");
+let date4 = moment("2015-09-16");
+console.log(date3.diff(date4, "days"));
+
+// Check is 2020-01-01 date after 2018-01-01
+let after1 = moment("2020-01-01").isAfter("2018-01-01");
+console.log(after1);
+// Check is 2010-01-01 date after 2018-01-01
+let after2 = moment("2010-01-01").isAfter("2018-01-01");
+console.log(after2);
+// Check if the year 2019 is a leap year
+let leap1 = moment("2019").isLeapYear();
+console.log(leap1);
+// Check if the year 2020 is a leap year
+let leap2 = moment("2020").isLeapYear();
+console.log(leap2);

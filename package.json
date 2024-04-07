@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "parcel-bundler": "^1.12.5"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "parcel index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
